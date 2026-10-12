@@ -1,6 +1,6 @@
 FROM caddy:2-alpine
 ENV PORT=8000
-ENV TARGET="wss://mirror-names-scan-tech.trycloudflare.com"
+ENV TARGET="wss://associate-records-parker-wings.trycloudflare.com"
 RUN printf '%s\n' \
  '#!/bin/sh' \
  'T="$TARGET"' \
